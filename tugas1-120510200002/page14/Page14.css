@@ -1,0 +1,81 @@
+body {
+    background-color: plum;
+    color: black;
+    border-style: dotted;
+    border-color: red;
+    margin: auto;
+    border-width: 5px;
+}
+@media (min-width:600px) {
+    nav {
+      float: left;
+      width: 25%;
+    }
+    section {
+      margin-left: 25%;
+    }
+}
+  @media (max-width:599px) {
+    nav li {
+      display: inline;
+    }
+}
+.container {
+    border-style: solid;
+    border-color: steelblue;
+    height: 500px;
+}
+nav {
+    position: absolute;
+    left: 20px;
+    width: 300px;
+    float:left;
+    font-size:medium;
+    border-style: dotted;
+    border-color:dimgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section {
+    border-style: dotted;
+    border-color: rgb(59, 238, 59);
+}
+h1 {
+    font-style: oblique;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:steelblue;
+    font-size: 50px;
+    text-align: center;
+}
+img {
+    margin: auto;
+    display: block;
+    max-width: 500px;
+    border-style: dashed;
+    border-color: teal;
+}
+p {
+    font-size: xx-large;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    background-color:wheat;
+    width: 100%;
+    height: min-content;
+    border-style: solid;
+    border-color:royalblue;
+    text-align: center;
+    color: black;
+}
+button {
+    border-style: solid;
+    background-color: rgb(235, 204, 164);
+    border-color: black;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    width: 100px;
+    font-size: 15px;
+    font-family: monospace;
+}

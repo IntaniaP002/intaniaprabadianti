@@ -1,0 +1,114 @@
+body {
+    background-color: cornflowerblue;
+    color: black;
+    margin: auto;
+    border-style: dotted;
+    border-color: red;
+    border-width: 5px;
+}
+.static {
+    position: static;
+    border-style: solid;
+    margin-left: 350px;
+    
+}
+.relative1 {
+    position: relative;
+    border-style: solid;
+    border-color: lightcoral;
+    left: 350px;
+}
+.relative2 {
+    position: relative;
+    top: -20px;
+    left: 20px;
+    background-color: white;
+    border-style: dotted;
+    border-color: lightgreen;
+    width: 500px;
+    margin-left: 400px;
+}
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    background-color: rgb(187, 118, 219);
+    right: auto;
+}
+.relative {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    border-style: solid;
+    border-color: rgb(178, 98, 32);
+    left: 350px;
+}
+.absolute {
+    position: absolute;
+    top: 120px;
+    right: 0;
+    width: 300px;
+    height: 200px;
+    border-style: ridge;
+    border-color:gold;
+    left: 250px;
+}
+h1 {
+    font-style: oblique;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:khaki;
+    font-size: 50px;
+    text-align: center;
+}
+img {
+    margin: auto;
+    display: block;
+    max-width: 500px;
+    border-style: dashed;
+    border-color: teal;
+}
+* {
+    border-style: solid;
+    border-color:lightcyan;
+   -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+nav {
+    position: absolute;
+    left: 20px;
+    width: 300px;
+    float:left;
+    font-size:medium;
+    border-style: dotted;
+    border-color:dimgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    background-color:wheat;
+    width: 100%;
+    height: min-content;
+    border-style: solid;
+    border-color:royalblue;
+    text-align: center;
+    color: black;
+}
+button {
+    border-style: solid;
+    background-color: rgb(235, 204, 164);
+    border-color: black;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    width: 100px;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+
+
+       
